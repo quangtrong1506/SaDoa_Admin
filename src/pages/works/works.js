@@ -6,7 +6,7 @@ const Works = () => {
     const [page, setPage] = useState(1);
     useEffect(() => {
         async function fetchData() {
-            const res = await worksApis.index({ page });
+            const res = await worksApis.index({ page, type: -1 });
             if (res.success) setWorks(res.data);
         }
         fetchData();
