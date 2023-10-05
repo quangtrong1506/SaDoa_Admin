@@ -1,0 +1,25 @@
+.error-page {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+.error-page .content {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.error-page .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://i.ibb.co/S7dg47m/IMG-20230420-051939.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+}

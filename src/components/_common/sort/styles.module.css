@@ -1,0 +1,18 @@
+.content {
+    display: flex;
+}
+
+.content > div {
+    position: absolute;
+    height: 150px;
+    min-width: 200px;
+    transform-origin: 50% 50% 0px;
+    border-radius: 5px;
+    background: lightblue;
+    text-transform: uppercase;
+    touch-action: none;
+}
+.content div img {
+    height: 150px;
+    height: 150px;
+}
